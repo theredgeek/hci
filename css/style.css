@@ -17,7 +17,7 @@ h1{
   width: 443px;
   height: 54px;
   left: 985px;
-  top: 65px;
+  top: 45px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -40,9 +40,6 @@ h1{
     background: #FFC2A0;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-}
-
-.Table__text{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -52,6 +49,12 @@ line-height: 27px;
 color: #261013;
 }
 
+table{
+  float: right;
+  height: 431px;
+  padding: 20px;
+
+}
 
 
 h2{
@@ -102,7 +105,7 @@ position: absolute;
 width: 334px;
 height: 56px;
 left: 985px;
-top: 592px;
+top: 548px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -119,7 +122,7 @@ color: #261013;
 width: 597px;
 height: 149px;
 left: 1002px;
-top: 682px;
+top: 642px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -129,17 +132,6 @@ line-height: 33px;
 
 color: #261013;
 }
-
-.Team__box{
-    position: absolute;
-    width: 664px;
-    height: 213px;
-    left: 985px;
-    top: 647px;
-    
-    background: #C3D4E8;
-    border-radius: 30px;
-    }
 
 h4{
 
@@ -152,13 +144,13 @@ color: #261013
 }
 
 .AI__box{
-    display:flex;
-    flex-direction: column;
-	justify-content: center;
-	align-items: center;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 width: 1378px;
 height: 82px;
-left: 271px;
+left: 371px;
 top: 923px;
 
 background: #E3DDD4;
@@ -166,20 +158,25 @@ box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 border-radius: 30px
 }
 
-.Button__box{
+button{
 position: absolute;
 background-color: #E3DDD4; 
   border: none;
-  color: #FFC2A0;
+  color: #FF8755;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 32px;
+  font-size: 28px;
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 line-height: 48px;
 border-radius: 100%;
+width: 239px;
+height: 239px;
+left: calc(50% - 239px/2 + 607.5px);
+top: 306px;
+
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
