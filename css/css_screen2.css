@@ -139,11 +139,10 @@ body{
 }
 
 .AI__text{
-    position: absolute;
-    width: 1462px;
-    height: 56px;
+    transform: translateY(-140%);
+    position:absolute;
     left: 22px;
-    margin:20px;
+
 
     font-family: 'Poppins';
     font-style: normal;
